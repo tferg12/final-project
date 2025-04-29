@@ -1,0 +1,265 @@
+.saira-stencil-one-regular {
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Saira", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  background: white;
+  color: #000000;
+}
+
+.header {
+  background: white;
+
+}
+
+.logo {
+  display: block;
+  text-align: center;
+}
+
+.logo h1 {
+  font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  font-size: 3rem;
+  color: #2D97DE;
+}
+
+.logo span {
+  color: #f57200;
+}
+
+.headerinfo {
+  display: none;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.navbar {
+  background: black;
+  margin-top: 1rem;
+}
+
+.navlinks {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navlinks li {
+  padding: 1rem;
+}
+
+.navlinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navlinks a:hover,
+.navlinks a:focus {
+  text-decoration: underline;
+}
+
+.title {
+  background-color: #2D97DE;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.bluebox {
+  display: grid;
+  background: #2D97DE;
+  grid-template-columns: 1fr;
+  align-items: center;
+  padding: 2rem;
+}
+
+.family h2 {
+  font-size: 2rem;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.welder img {
+  width: 100%;
+  height: auto;
+}
+
+.hometext {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 4rem;
+}
+
+.service img {
+  width: 100%;
+  height: auto;
+}
+
+.service p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.contact {
+  padding: 2rem;
+}
+
+.contact-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+input:hover, input:focus {
+  border: 1px solid #2D97DE;
+}
+
+textarea:hover, textarea:focus {
+  border: 1px solid #2D97DE;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.contact-button {
+  display: block;
+  width: 70%;
+  margin: 2rem auto 0;
+  padding: 1rem;
+  background: #f57200;
+  color: white;
+  border: 1.5px solid #000000;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.contact-button:hover, 
+.contact-button:focus {
+  background: #000000;
+}
+
+.footer {
+  background: linear-gradient(to right, #2D97DE, #f57200);
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-logo {
+  font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.footerinfo {
+  display: flex;
+  font-size: 0.8rem;
+}
+
+
+@media (min-width: 768px) {
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .logo h1 {
+    font-size: 4em;
+  }
+
+  .headerinfo {
+    display: flex;
+    margin-right: 5px;
+  }
+
+  .navlinks {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  main {
+    margin: auto 15%;
+  }
+
+  .bluebox {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .family h2 {
+    font-size: 2.8rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-button {
+    width: 50%;
+  }
+
+  .small-logo {
+      font-size: 2.5rem;
+  }
+  
+}
